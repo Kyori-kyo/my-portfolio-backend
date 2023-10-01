@@ -1,0 +1,27 @@
+POST http://localhost:3000/videos
+Content-Type: application/json
+
+{
+    "title": "Video 1",
+    "description": "Video 1 description",
+    "duration": 120
+}
+
+### 
+
+GET http://localhost:3000/videos?search=
+
+###
+
+PUT http://localhost:3000/videos/02a83a41-21db-47b6-890d-521c7c0b7c06
+Content-Type: application/json
+
+{
+    "title": "Video",
+    "description": "teste do put do pai",
+    "duration": 120
+}
+
+### 
+
+DELETE  http://localhost:3000/videos/02a83a41-21db-47b6-890d-521c7c0b7c06
