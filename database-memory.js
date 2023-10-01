@@ -1,4 +1,4 @@
-import { randomUUID } from "node:crypto";
+import { randomUUID } from "crypto";
 // gera um id unico universal
 
 export class DatabaseMemory {
